@@ -1,25 +1,28 @@
 :root {
 }
 
-.searchbar {
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  background-color: pink;
+.navbar {
+  position: static;
 }
 
-.search {
-  padding: 1vw;
-  padding-left: 2vw;
-  padding-right: 2vw;
-}
-.search-plane {
-  width: 70%;
-  height: 25px;
+.hero {
+  background-color: #363636;
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
 }
 
-.submit {
-  width: 20%;
-  margin-left: 1vw;
-  height: 31px;
+.overlay {
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  cursor: pointer;
 }
